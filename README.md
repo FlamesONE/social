@@ -13,10 +13,12 @@ https://vk.com/apps?act=manage
 ![image](https://user-images.githubusercontent.com/62756604/140979257-961f8d65-c332-448e-82b3-acb22609857f.png)
 
 Discord auth data:
+https://discord.com/developers/applications
 
 ![image](https://user-images.githubusercontent.com/62756604/140979525-5f0ec014-0665-44da-9c79-ec9058e0e01d.png)
 
 Steam auth data:
+https://steamcommunity.com/dev/apikey
 
 ![image](https://user-images.githubusercontent.com/62756604/140979649-6b615222-5130-4aba-837e-2cb4e903f837.png)
 
