@@ -1,0 +1,22 @@
+{
+    "name": "flamesone/social",
+    "description": "Social Auth, DISCORD, STEAM, VK",
+    "type": "library",
+    "keywords": ["discord", "steam", "vk", "auth", "vkauth", "discordauth", "steamvk"],
+    "autoload": {
+        "psr-4": {
+            "Flamesone\\Social\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nikita",
+            "email": "62756604+FlamesONE@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2"
+    },
+    "license": "GPL-3.0-or-later",
+    "minimum-stability": "stable"
+}
