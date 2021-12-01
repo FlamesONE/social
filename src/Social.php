@@ -17,9 +17,9 @@ class Social
     protected $cache = [];
 
     /**
-     * @var array Class pathes
+     * @var array Class paths
      */
-    protected $pathes = [
+    protected $paths = [
         "discord" => "Flamesone\Social\Socials\Discord",
         "vk"      => "Flamesone\Social\Socials\VK",
         "steam"   => "Flamesone\Social\Socials\Steam",
@@ -94,9 +94,9 @@ class Social
     {
         if( $this->existsSocial( $key ) )
         {
-            if( isset( $this->pathes[ $key ] ) )
+            if( isset( $this->paths[ $key ] ) )
             {
-                $class = $this->cacheHandle( $key, $this->pathes[$key] );
+                $class = $this->cacheHandle( $key, $this->paths[$key] );
                 $class->setParams( $this->getSocialData($key) );
                 return $class->Auth();
             }
@@ -112,9 +112,9 @@ class Social
     {
         if( $this->existsSocial( $key ) )
         {
-            if( isset( $this->pathes[ $key ] ) )
+            if( isset( $this->paths[ $key ] ) )
             {
-                $class = $this->cacheHandle( $key, $this->pathes[$key] );
+                $class = $this->cacheHandle( $key, $this->paths[$key] );
                 $class->setParams( $this->getSocialData($key) );
                 $handle = $class->Handle();
                 $callback && $callback( $handle );
